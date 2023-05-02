@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 /**
  * A dynamic button which can be used all over the site.
  * @param {String} type The type of the button.
@@ -8,11 +8,11 @@ import React from 'react';
  * @returns The proper button with specified params.
  */
 export default function Btn({
-  type = 'button',
-  className = 'bg-secondary',
-  children = 'button',
+  type = "button",
+  className = "bg-secondary",
+  children = "button",
   disabled = false,
-  onClick = () => { },
+  onClick = () => {},
 }) {
   return (
     <button
